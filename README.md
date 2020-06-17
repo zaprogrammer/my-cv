@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 Table of Contents
 1. About
 2. Acknowledgements
 2. Getting Started with this Template
 3. Tips to writing a good CV
+
 ABOUT---------------------------------------------------
 
 ACKNOWLEDGMENTS-----------------------------------------
