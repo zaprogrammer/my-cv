@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Table of Contents
 1. About
 2. Acknowledgements
@@ -225,3 +226,6 @@ LAYOUT
 < 3 colors
 Easy to find headers
 full width for content if possible
+=======
+# my-cv
+>>>>>>> a1f8b08dd0e8d796a3b459b58b40966271b881ec
