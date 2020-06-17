@@ -1,0 +1,51 @@
+% !TEX TS-program = luatex
+% Ahmed Elshaabany's Pro. CV LaTeX Template
+%
+% Author:
+% Ahmed Elshaabany
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{documentMETADATA}
+\name{Ahmed}{Elshaabany}
+\tagline{Mobile / Frontend engineer | Scrum Master}
+% \begin{wrapfigure}{r}{0.25\textwidth}
+%     \centering
+%     \includegraphics[width=0.25\textwidth]{me-circle-2}
+% \end{wrapfigure}
+% \vspace{1.2cm}
+\photo{1.5cm}{me-circle-2}
+\socialinfo{
+    \begin{tabular}{l|l}
+        \address{Frankfurt am Main, Germany}    & \smartphone{+49 1525 8141 595}     \\
+    	\email{ahmed.elshabany@gmail.com}       & \linkedin{aelshaabany}             \\
+    	\github{zaprogrammer}                   & \gplay{zaprogrammer}               \\
+    % 	\personalLink{personal-email}\\
+    % 	\infos{U.S. Citizen}
+    \end{tabular}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} %\selectlanguage{english}\today
+		{\textsc{Ahmed Elshaabany - CV}}
+		{\thepage}
+
+	\input{section_headline}                % Research Statement
+	\input{section_experience}	        	% Section Professional Experience
+	\input{section_qualifications}			% Section Qualifications & Education
+%   \input{section_publications_etc}        % Section Publications, presentations,...
+	\input{section_skills}				    % Section Skills
+% 	\input{section_interets}				% Section interests
+	\input{section_projects}                % Section Projects
+% 	\input{section_outreach_volunteering}   % Section Professional Outreach and volunteering
+% 	\input{section_teaching_mentoring}      % Section Teaching and Mentoring
+	\input{section_certifications}          % Section Certifications
+	\input{section_languages}				% Section languages, Forcses
+	\input{section_references} 				% Section references
+	
+\end{document}
